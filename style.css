@@ -118,6 +118,7 @@ body{
     transition: all 1s ease;
 }
 .nav__link{
+    
     text-decoration: none;
     color: var(--Dark-grayish-blue);
 }
@@ -564,10 +565,12 @@ body{
         align-items: flex-end;
         
     }
-
+    .header__nav__logo{
+        width: 50%;
+    }
     .header__nav__links{
         /* outline: auto; */
-        width: 40%;
+        width: 60%;
         
         height: unset;
         position: unset;
@@ -579,7 +582,7 @@ body{
         
     }
     .nav__link{
-        font-size: .6rem;
+        font-size: 1rem;
     }
     .nav__link--color{
         background: #fff;
